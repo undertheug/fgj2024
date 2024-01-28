@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1315C7B2B657AF9000FE465 /* DialogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1315C7A2B657AF9000FE465 /* DialogManager.swift */; };
+		E15246E52B65700200049C20 /* combat_track.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E15246E42B65700200049C20 /* combat_track.mp3 */; };
+		E15246E72B65702000049C20 /* main_track.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E15246E62B65702000049C20 /* main_track.mp3 */; };
 		E1FDF1992B6514080029CD1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDF1982B6514080029CD1F /* AppDelegate.swift */; };
 		E1FDF19B2B6514080029CD1F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1FDF19A2B6514080029CD1F /* GameScene.sks */; };
 		E1FDF19D2B6514080029CD1F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1FDF19C2B6514080029CD1F /* Actions.sks */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1315C7A2B657AF9000FE465 /* DialogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogManager.swift; sourceTree = "<group>"; };
+		E15246E42B65700200049C20 /* combat_track.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = combat_track.mp3; path = ../../../Downloads/combat_track.mp3; sourceTree = "<group>"; };
+		E15246E62B65702000049C20 /* main_track.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = main_track.mp3; path = ../../../Downloads/main_track.mp3; sourceTree = "<group>"; };
 		E1FDF1952B6514080029CD1F /* HabiticaStoriez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabiticaStoriez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FDF1982B6514080029CD1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1FDF19A2B6514080029CD1F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -63,10 +69,13 @@
 				E1FDF19A2B6514080029CD1F /* GameScene.sks */,
 				E1FDF19C2B6514080029CD1F /* Actions.sks */,
 				E1FDF19E2B6514080029CD1F /* GameScene.swift */,
+				E1315C7A2B657AF9000FE465 /* DialogManager.swift */,
 				E1FDF1A02B6514080029CD1F /* GameViewController.swift */,
 				E1FDF1A22B6514080029CD1F /* Main.storyboard */,
 				E1FDF1A52B65140A0029CD1F /* Assets.xcassets */,
 				E1FDF1A72B65140B0029CD1F /* LaunchScreen.storyboard */,
+				E15246E42B65700200049C20 /* combat_track.mp3 */,
+				E15246E62B65702000049C20 /* main_track.mp3 */,
 			);
 			path = HabiticaStoriez;
 			sourceTree = "<group>";
@@ -131,8 +140,10 @@
 			files = (
 				E1FDF1A42B6514080029CD1F /* Main.storyboard in Resources */,
 				E1FDF19B2B6514080029CD1F /* GameScene.sks in Resources */,
+				E15246E72B65702000049C20 /* main_track.mp3 in Resources */,
 				E1FDF1A62B65140A0029CD1F /* Assets.xcassets in Resources */,
 				E1FDF1A92B65140B0029CD1F /* LaunchScreen.storyboard in Resources */,
+				E15246E52B65700200049C20 /* combat_track.mp3 in Resources */,
 				E1FDF19D2B6514080029CD1F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1FDF19F2B6514080029CD1F /* GameScene.swift in Sources */,
+				E1315C7B2B657AF9000FE465 /* DialogManager.swift in Sources */,
 				E1FDF1A12B6514080029CD1F /* GameViewController.swift in Sources */,
 				E1FDF1992B6514080029CD1F /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Habitica Storiez";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Habitica Storiez";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
